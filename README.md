@@ -31,6 +31,6 @@ java -jar __ /path/to/file --parallel
 
 java -jar __ /path/to/file --parallel 2
 
-IMPORTNANT: parallel run required java 23.
+IMPORTNANT: parallel run required java 23 and file should be big enough (from 1GB by default).
 
 Please dont blame me that Im using Unsafe:)
