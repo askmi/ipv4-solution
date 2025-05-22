@@ -27,9 +27,10 @@ java -jar .. /path/to/file
 
 You can it in parallel to reduce proccessing time by using machine CPUs (by default number of threads the same as available cpus on your machine)
 
-java -jar .. /path/to/file --parallel
-java -jar .. /path/to/file --parallel 2
+java -jar __ /path/to/file --parallel
 
-IMPORTNANT: for parallel run java 23 required.
+java -jar __ /path/to/file --parallel 2
 
-PLease dont blame me that Im using Unsafe:)
+IMPORTNANT: parallel run required java 23.
+
+Please dont blame me that Im using Unsafe:)
