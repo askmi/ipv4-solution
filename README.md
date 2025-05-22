@@ -9,7 +9,7 @@ Main ideas:
 - represent ipv4 address as 32-bit integer and use it as index in bitmap
 - read file in memory by portions (bufferSize=1Mb) and parse each ip in java memory process (reduce number of reads from disk)
 - split file into partitions and run them in parallel
-- use shared bitmap but guard set bit oparation by non-blocking atomics CAS
+- use shared bitmap but protect set bit oparation by non-blocking atomics CAS
 
 Memory Estimation:
 
