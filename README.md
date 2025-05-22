@@ -11,10 +11,15 @@ Main ideas:
 Memory Estimation:
 
 All possible IPv4 addresses range is 32-bit integers: 2^32 = 4 294 967 296 addresses.
+
 Java integer is a signed type which is not enough.
+
 We will store those bits in a long[] (array of 64-bit words).
+
 Array size: 2^32 / 64 (64 bits in 1 long) = 67 108 864 longs
+
 Memory: 67 108 864 * 8 bytes = 536 870 912 bytes = 512MB
+
 Total memory for all possible ipv4 is 512MB.
 
 To run program specify arguments:
