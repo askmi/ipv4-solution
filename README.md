@@ -7,6 +7,7 @@ Main ideas:
 - to use a minimum memory set a single bit per IP (bitmap) to store unique ipv4 addresses
 - build bitmap from long array because in java no bit sized type
 - represent ipv4 address as 32-bit integer and use it as index in bitmap
+- read file in memory by portions (bufferSize=1Mb) and parse each ip in java memory process (reduce number of reads from disk)
 
 Memory Estimation:
 
