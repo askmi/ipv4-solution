@@ -39,3 +39,5 @@ java -jar __ /path/to/file --parallel 2
 IMPORTNANT: parallel run required java 23 and file should be big enough (from 1GB by default).
 
 Please dont blame me that Im using Unsafe:)
+
+The can be done with even less memory by using HyperLogLog data structure but it has some probability and I did not include that solution but it works fine with that large file (1 000 000 000 unique ips)
