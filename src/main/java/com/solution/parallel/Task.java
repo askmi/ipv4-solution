@@ -56,8 +56,7 @@ record Task(Path path, long start, long end, int bufferSize, Ipv4Bitmap bitmap) 
                 bitmap.setAtomic(ipAsInt); // set bit
             }
         } catch (IOException e) {
-            e.printStackTrace(); // keep it simple
-            System.exit(1);
+            throw new RuntimeException(e);
         }
     }
 }
