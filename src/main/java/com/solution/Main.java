@@ -11,7 +11,6 @@ import java.util.concurrent.locks.LockSupport;
 
 public class Main {
     private static final int BUFFER_SIZE = 1 * 1024 * 1024; // 1MB
-//    static final Path PATH = Path.of("/Users/asmirnou/Downloads/ip_addresses");
 
     static {
         System.out.println("java version: " + Runtime.getRuntime().version());
