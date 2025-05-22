@@ -25,7 +25,7 @@ To run program specify arguments:
    
 java -jar .. /path/to/file 
 
-You can it in parallel to reduce proccessing time by using machine CPUs (by default number of threads the same as available cpus on your machine)
+You can run it in parallel to reduce proccessing time by using machine CPUs (by default number of threads the same as available cpus on your machine)
 
 java -jar __ /path/to/file --parallel
 
