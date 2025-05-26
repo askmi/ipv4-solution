@@ -43,4 +43,4 @@ IMPORTNANT: parallel run required java 23 and file should be big enough (from 1G
 
 Please dont blame me that Im using Unsafe:)
 
-Task can be done with even less memory by using HyperLogLog data structure but it has some probability and I did not include that solution however it works fine with that large file (1 000 000 000 unique ips)
+Task can be done with even less memory by using HyperLogLog data structure but it has some probability and I did not include that solution however it works fine with that large file (~ 1 000 000 000 unique ips)
